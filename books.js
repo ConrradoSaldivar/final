@@ -1,44 +1,38 @@
-var Books = [
-	{
-    	fname: "Paul",
-    	lname: "Kalanithi",
-    	Title: "When Breath Becomes Air",
-    	Genre: “Nonfiction”,
-    	Rating: 5
-	},
-	{
-    	fname: "Francisco",
-    	lname: "Cantu",
-    	Title: “The Line Becomes a River”,
-    	Genre: "Nonfiction",
-    	Rating: 5
-	},
-	{
-    	fname: "Hanya",
-    	lname: "Yanagihara",
-    	Title: “A Little Life”,
-    	Genre: "Fiction",
-    	Rating: 5
-	},
-	{
-    	fname: "Thi",
-    	lname: "Bui",
-    	Title: “The Best We Could Do”,
-    	Genre: "Nonfiction",
-    	Rating: 4
-	},
-             {
-    	fname: "Andrew Sean",
-    	lname: "Greer",
-    	Title: “Less”,
-    	Genre: "Fiction",
-    	Rating: 4
-	},
-             {
-    	fname: "Madeline",
-    	lname: "Miller",
-    	Title: “The Song of Achilles”,
-    	Genre: "Fiction",
-    	Rating: 4
-	},
+const BOOKS = [
+  {
+    author: "Paul Kalanithi",
+    title: "When Breath Becomes Air",
+    genre: "Nonfiction",
+    ranking: 1,
+  },
+  {
+    author: "Francisco Cantu",
+    title: "The Line Becomes a River",
+    genre: "Nonfiction",
+    ranking: 3,
+  },
+  {
+    author: "Hanya Yanagihara",
+    title: "A Little Life",
+    genre: "Fiction",
+    ranking: 5,
+  },
+  {
+    author: "Thi Bui",
+    title: "The Best We Could Do",
+    genre: "Nonfiction",
+    ranking: 6,
+  },
+  {
+    author: "Andrew Sean Greer",
+    title: "Less",
+    genre: "Fiction",
+    ranking: 4,
+  },
+  {
+    author: "Madeline Miller",
+    title: "The Song of Achilles",
+    genre: "Fiction",
+    ranking: 2,
+  },
 ];
